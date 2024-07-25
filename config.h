@@ -1,10 +1,10 @@
 /* See LICENSE file for copyright and license details. */
 
 /* interval between updates (in ms) */
-const unsigned int interval = 1000;
+const unsigned int interval = 30000;
 
 /* text to show if no value can be retrieved */
-static const char unknown_str[] = "^";
+static const char unknown_str[] = "";
 
 /* maximum output string length */
 #define MAXLEN 2048
@@ -81,7 +81,7 @@ static const struct arg args[] = {
 	{ battery_state,     "%s|",           "BAT0" },
 	{ battery_perc,     "%s",           "BAT1" },
 	{ battery_state,     "%s]",           "BAT1" },
-	{ datetime,         "[%s]",           "%a %H:%M, %d %b" },
+	{ datetime,         "[%s]",           "%d/%m %H:%M" },
 
 
 };
