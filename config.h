@@ -71,7 +71,7 @@ static const struct arg args[] = {
 //	{ netspeed_rx, 		"R:%s ",           "wlo1" },
 //	{ netspeed_tx, 		"T:%s ",           "wlo1" },
 //	{ ipv4, 		    "[%s]",           "wlan0" },
-	{ wifi_essid, 		    "[%s]",           "wlan0" },
+//	{ wifi_essid, 		    "[%s]",           "wlan0" },
 //	{ ipv4, 		    "[%s] ",           "enp0s31f6:" },
 //	{ cpu_perc, 		"CPU:%s ",           "NULL" },
 // 	{ ram_perc, 		"RAM:%s ",           "NULL" },	
@@ -81,7 +81,7 @@ static const struct arg args[] = {
 	{ battery_state,     "%s|",           "BAT0" },
 	{ battery_perc,     "%s",           "BAT1" },
 	{ battery_state,     "%s]",           "BAT1" },
-	{ datetime,         "[%s]",           "%a %H:%M" },
+	{ datetime,         "[%s]",           "%a %H:%M, %d %b" },
 
 
 };
